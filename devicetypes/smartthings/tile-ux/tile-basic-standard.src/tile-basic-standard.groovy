@@ -1,5 +1,5 @@
 /**
- *  Copyright 2016 SmartThings, Inc.
+ *  Copyright 2016 Samsung Electronics Co., LTD.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
  *  in compliance with the License. You may obtain a copy of the License at:
@@ -24,19 +24,19 @@ metadata {
 		// standard tile with actions
 		standardTile("actionRings", "device.switch", width: 2, height: 2, canChangeIcon: true) {
 			state "off", label: '${currentValue}', action: "switch.on", icon: "st.switches.switch.off", backgroundColor: "#ffffff"
-			state "on", label: '${currentValue}', action: "switch.off", icon: "st.switches.switch.on", backgroundColor: "#79b821"
+			state "on", label: '${currentValue}', action: "switch.off", icon: "st.switches.switch.on", backgroundColor: "#00A0DC"
 		}
 
 		// standard flat tile with actions
 		standardTile("actionFlat", "device.switch", width: 2, height: 2, canChangeIcon: true, decoration: "flat") {
 			state "off", label: '${currentValue}', action: "switch.on", icon: "st.switches.switch.off", backgroundColor: "#ffffff"
-			state "on", label: '${currentValue}', action: "switch.off", icon: "st.switches.switch.on", backgroundColor: "#79b821"
+			state "on", label: '${currentValue}', action: "switch.off", icon: "st.switches.switch.on", backgroundColor: "#00A0DC"
 		}
 
 		// standard flat tile without actions
 		standardTile("noActionFlat", "device.switch", width: 2, height: 2, canChangeIcon: true) {
 			state "off", label: '${currentValue}',icon: "st.switches.switch.off", backgroundColor: "#ffffff"
-			state "on", label: '${currentValue}', icon: "st.switches.switch.on", backgroundColor: "#79b821"
+			state "on", label: '${currentValue}', icon: "st.switches.switch.on", backgroundColor: "#00A0DC"
 		}
 
 		// standard flat tile with only a label

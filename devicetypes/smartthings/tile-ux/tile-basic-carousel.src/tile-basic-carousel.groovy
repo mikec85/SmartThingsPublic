@@ -1,5 +1,5 @@
 /**
- *  Copyright 2016 SmartThings, Inc.
+ *  Copyright 2016 Samsung Electronics Co., LTD.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
  *  in compliance with the License. You may obtain a copy of the License at:
@@ -41,9 +41,9 @@ metadata {
 				attributeState("default", label:'${currentValue}%', unit:"%")
 			}
 			tileAttribute("device.thermostatOperatingState", key: "OPERATING_STATE") {
-				attributeState("idle", backgroundColor:"#44b621")
-				attributeState("heating", backgroundColor:"#ffa81e")
-				attributeState("cooling", backgroundColor:"#269bd2")
+				attributeState("idle", backgroundColor:"#ffffff")
+				attributeState("heating", backgroundColor:"#e86d13")
+				attributeState("cooling", backgroundColor:"#00a0dc")
 			}
 			tileAttribute("device.thermostatMode", key: "THERMOSTAT_MODE") {
 				attributeState("off", label:'${name}')
